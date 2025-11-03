@@ -1,0 +1,6 @@
+# 可选：明示用 Docker 构建
+[build]
+builder = "docker"
+
+[deploy]
+restartPolicyType = "on_failure"
